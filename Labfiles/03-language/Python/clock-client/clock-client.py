@@ -21,6 +21,7 @@ def main():
                 client = ConversationAnalysisClient(ls_prediction_endpoint, AzureKeyCredential(ls_prediction_key))
 
                 # Call the Language service model to get intent and entities
+                
                 cls_project = 'Clock'
                 deployment_slot = 'production'
                 with client:
