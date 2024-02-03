@@ -8,6 +8,7 @@ jobs:
       vmImage: 'Ubuntu 16.04'
     container:
       image: 'microsoftlearning/markdown-build:latest'
+      
     steps:
       - task: Bash@3
         displayName: 'Build Content'
